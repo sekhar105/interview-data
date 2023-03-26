@@ -1,0 +1,31 @@
+
+
+
+* Auto Boxing is used to convert primitive data types to their wrapper class objects. Wrapper class provide a wide range of function to be performed on the primitive types.
+
+these classes are called wrapper classes these wrapper classes internally implements equals and hashcode  
+
+int a = 56;
+Integer i = a; // Auto Boxing
+
+It is needed because of programmers easy to be able to directly write code and JVM will take care of the Boxing and Unboxing.
+
+Auto Boxing also comes in handy when we are working with java.util.Collection types. When we want to create a Collection of primitive types we cannot directly create a Collection of a primitive type , we can create Collection only of Objects. For Example : 
+
+ArrayList<int> al = new ArrayList<int>(); // not supported 
+
+ArrayList<Integer> al = new ArrayList<Integer>(); // supported 
+al.add(45); //auto Boxing 
+
+
+ * Unboxing is opposite of Auto Boxing where we convert the wrapper class object back to its primitive type. This is done automatically by JVM so that we can use a the wrapper classes for certain operation and then convert them back to primitive types as primitives result int faster processing. For Example :
+
+Integer s = 45;
+int a = s; auto UnBoxing;
+
+In case of Collections which work with objects only auto unboxing is used. Here's how :
+
+ArrayList<Integer> al = new ArrayList<Integer>();
+al.add(45);
+
+int a = al.get(0); // returns the object of Integer . Automatically Unboxed . 

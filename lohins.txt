@@ -1,0 +1,25 @@
+
+Meeting ID	869 7136 5598
+Passcode	464193
+
+
+hibernate---467624
+
+
+web services----854303
+
+pasword root
+
+create user spring identified by root
+
+select username from dba_users
+
+grant create session to spring
+
+create user ravi identified by root;
+
+Grant CONNECT to spring;
+
+grant connect to spring IDENTIFIED by root;
+
+GRANT all PRIVILEGES TO spring IDENTIFIED by root;

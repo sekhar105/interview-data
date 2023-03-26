@@ -1,0 +1,118 @@
+join querys
+when you define a set you have to use equals to and hash code manditory
+singleton class and design pattern
+.getinstance method-factory design pattern by ranjith ramachandran
+builder design pattern
+http status or error status like 404 not found error
+methods in array
+proxy design pattern
+over ridign methods and can we over ride static methods or not?
+wrapper class why we are using wrapper classes
+run time polymorphusim
+wrapper class 
+type casting and types of type casting
+serialization and deserialization
+heap and stack memory -> https://www.youtube.com/watch?v=UcPuWY0wn3w
+-> https://www.youtube.com/watch?v=aAjkJW08BGQ
+multithreading 
+comparabel and comparator interface
+garbage collectors by ranjith rama chandran
+getinstance method
+extends runtimeexcetpiton
+what is stack in and stack trace call by value and call by reference
+simpledata format 
+what is difference between webserver and application server
+where we have to use / or \
+jvm working process in java  ->https://www.youtube.com/watch?v=tUGiw9C6kso
+How to Write Memory-Efficient Java Code      in oracle developers
+which type of data we are storing in cache
+marker interface
+class path resource and file system resources
+logger aspect class
+stack hierarchy
+stack trace
+clr+shift+i
+var args
+where we can change parameters method overriding or over loading
+row mapper resutl set 
+spring data jpa??
+triggers and operations
+servlets jsps and jstls
+throwable or throws
+there is process or interface in sts which shows our methods or some thing directly
+why api is vendor based implementation
+super();-
+ananymous inner class 
+reflection api or reflection package
+greatest feautre of inheritance is polymorphism 
+polymorphic acess
+polymorphic retrival
+default methods of object like hash code etc
+defautl methods inside a class
+what is the use of default consutructor if we are using prameterized constructor 
+what is serialization and deserialization in java
+synchronized this or synchronized
+join query
+Objects.nonNull(department.getDepartmentName()) && !"".equalsIgnoreCase(department.getDepartmentName()))
+Camel case in Java
+spring boot comes with default slf4j logger
+error handling conditons
+
+
+
+
+Learn to say NO at the right time.
+Be brave enough
+Try to work independently as much as possible.
+Be ready for less increment or low grades even if your performance has been exceptionally great.
+Always be bold
+Keep your personal life and corporate life balanced
+If you're assigned to a task and you're not clear with it, always try to get it cleared before performing that task.
+You have to be yourself, nobody is going to help you out all the time.
+Don't expect people to care about you
+There are no friends in an office.
+Everyone is replaceable and will eventually be replaced.
+Never write an email when you're angry. It reflects.
+Your looks, dress and communication skills matters a lot.
+Always try to communicate through the mail.
+Never share your salary with your colleagues.
+People around you will always try to pull you down. Be careful.
+HR is not there to protect you. HR is there to protect the company.
+Managers are professional politicians.
+If you're stuck with something, do some analysis before you check with somebody.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ongole team railway tc
+aditya reliance
+vijay..return money

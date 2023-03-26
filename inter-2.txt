@@ -1,0 +1,367 @@
+------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=OfWOli-nc0I&t=9s&ab_channel=CrackTheJob
+------------------------------------------------------------------------------------------------------------
+
+#)can you please tell me what is singleton?
+for singleton we can crate only one object that particular
+
+#)how can you achive to singleton
+you have to private static members and private constroctor and getinstance method 
+
+    Declaring all constructors of the class to be private.
+    Providing a static method that returns a reference to the instance. The lazy initialization concept is used to write the static methods.
+    The instance is stored as a private static variable.
+
+#)is there any way to break singleton pattern? i want to use singleton in multithreading? 
+you have to use synchronised key word for that acessing right using reflection you can having that private filter 
+while using synchronised key word where we have to use where on method level or the code where on singleton
+
+#)what are the good software praacitcse where youneed to follow scalable and maintainlable and test ble?
+class name is capitla letter and varible is small letter and getter setter is there and exception handling shoudld be proper we are using some solid princple 
+
+#)how can you make sure your software is scalable? @3:45
+
+#)do you know what is scalable is software 
+
+#)can you tell me how you can implement jwt token for your url?
+
+#)how you are using profiles there are multiple profiles ?
+therer some profiles like dev production and test profiles
+
+#)suppose you want to use only dev properties what we have to use?
+there is environemet there right there is environemt property
+
+#)what do you mean by continous integration
+
+#)have you use any messaging service
+
+#)what are the advanteges of using microservice architechture?
+using microservices you can split your modules if one microservice fail not entire applicatin will file 
+
+#)how you are mangingn load blancing in  aws
+
+#)what is method reference in java8?what is use of it?
+method reference is a shorthand notation of a lambda expression to call a method 
+
+#)what is stream ?
+ stream is a there you can process the collection of object there are two types of operations in that you can apply on stream like intermidiate operation and teminal operation and methods like map flat map and filter
+ a stream is a sequence of objects that supports various methods which can be piplelinded to produce the desired result
+features of java stream are:-
+a stream is not a data structure instead it takes input form the collcetions Arrays or i/o channels 
+stream doesnot change the original data structure they only provide the result as per the pipeline methods
+ 
+#)how stream is different from collecion
+
+collections:-collections are mailny used to store data it provides a build in data structure
+             collections store data so you can add or remove data form collections
+             collections have to be iterated externally so to iterate we need Enumurator,Iterator etc 
+stream:-streams are mainly used to perform operations on data like collection and array
+        streams dont store data so you cannt add or remove any data from stream 
+        stream can be iterated internally
+        
+#)what is pregum and 
+in previous version of java there are using premgun right to stroe the calss now java8 repalce that premgum and replace it meta space metaspace increase dynamically no size constrant 
+
+------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=4_2awvIhREU
+------------------------------------------------------------------------------------------------------------
+#)what are the methods you used in restapi?
+get post and delete patch and put method
+
+#)suppose you what to delete a data but that data it is not preset?
+exception handling in spring boot user is not existed @controllerAdvice we use to hanlde the exceptions
+
+#)why we are using spring boot?
+previously in spring mvc we have to add all the things like dependices like config part and data base config  part all the things we have to do manually so in spring boot we have given more features it gives auto configrable if we want to use the data jpa we just want to give we just want to data base properties like db name passwrod etc in properties file and it will directly connect to db we can use the jpa and dont need to add tomcat server it has embeded tomcat server
+
+#)what are the annotations you have used?
+@service @requestmapping  @restcontroller @requestbody @bean @repository @componetn @bean @post @deletmapping @getmapping 
+
+#)@qualifier where we have to use ?what is linnk between @autowire and @qualifier?
+both are used at the same time @qualifier is used for @autowire is used for injecting bean to that particular instance @qualifer is used for if we are using two classed which are implementing same interface in that case spring container will confuse which bean has to inject so in that case it use @qualifer to resolve that ambiguity
+
+#)how @qualifier works internally @11 :00
+internallly it uses reflection api @autowire also uses internally reflection api but how @qualifer uses internally is we are giving identifier(ie name to that particular instance like this @component("bean name")) for that paricular instance and that name is existed so that at @qualifier("bean name") so both names match the bean will inject  
+
+#)how many ways to inject bean in spring?
+we can have like constructor and setter and autowire
+
+#)what do you mean bytype and byname?  @13:00
+
+
+#)qualifer is inject bytype or byname?
+byname only
+
+#)autowire will be injected by byname or bytype?
+by type
+
+#)how internally these things happen internally?
+
+#)what is lazy loading?
+when ever app is loaded it just return the proxy object when ever it required then it will hit the database that is lazy loading
+
+#)when your are loading parent calss in hibernate the chidl class or associated classes are loaded how can you solve the issue ?
+
+#)how you map the resources in hibernate?
+
+#)what is dialect?
+The dialect specifies the type of database used in hibernate so that hibernate generate appropriate type of SQL statements. For connecting any hibernate application with the database, it is required to provide the configuration of SQL dialect.
+
+#)i want to see how hibernate query is generating in console?
+we have to use show_sql true
+
+#)how hbm2ddltool will work it work ?
+like it will create tables in database when ever we are starting the application
+
+
+#)currently which version of java you are using ?
+1.8
+
+#)what are the new features available in java 8?
+we can write static method and default in interfaces we have also like  stream api functionl interfaces and collector class zonal date time changes 
+
+#)find the second largest details of employee using stream api?
+
+#)find the most repeated char in a string?
+
+#)
+
+------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=o95ozigxOJo
+------------------------------------------------------------------------------------------------------------
+#)what is class loaders in java?how many types of class loaders are there in java?
+
+#)what is the enumeration and iteratro and traitor difference?
+enumeration is used baically for vectores and iterator for list enumeration is thread safe 
+
+#)what is marker interface?
+marker interface they dont have any method they just to mark the classes provide the functinaliy by jvm serializable is marker interface
+
+#)what is the difference between comparator and comparable?
+
+
+#)what is differece betwenn arralylist and vector?
+arraylist is at 1.5   vector is thread safe and arraylist not 
+
+#)if you maupulate the data which collection is better ?
+linked list is prefarable like it just working on nodes so when we are deleting the nodes between the linked list it just lilke linking the adress to the next nodes when ever we are updatin we are something it just like but in 
+
+#)can you explain the  system.out.println?
+system is a class out is the reference varible
+
+#)what is the exact working of jvm?
+
+
+#)what is the differece between == and .equals method ?
+== operator is used for reference comparison of objects and .equal method is for the content comparison
+
+#)String s1= new string("abc");  String  s2=new string("abc"); what is s1==s2?
+it will return false.
+
+#)what is a inheritance?
+inhritance we can use paretn class properties to the child class so inhertance might happen parent to child so we need to extedn the parent class to child class so we can overirde the properites of the parentclass
+
+#)is multiple inhertance supports in java? @10:00
+
+
+
+#)can you get the current date? 
+
+#)what is the benifit of stream api?
+stream api is basically for iteration of the collections strema api has multiple functions like we can itreate sequential operation or paralle operation
+
+#)you have list of empoyyee having two emp has same adress? @13:00
+
+#)difference between doput and dohead?
+
+#)suppose we want to get the parm value how can we get that?
+we use @parmvalue and type of the 
+
+#)can we add external server in spring boot?
+yes we can we add jt server we can 
+
+#)what is differece @componetn and @componentscan @service ?
+@componetn is used to add beans of our own classes @componetscan is basically for scannig the packages we have to provide path @service is used for same purpose it contains internally @component 
+
+#)can we replace @componetn with @service?
+
+#)suppose you are working some directory you collegues update the code you need to take the pull with out removing the local changes?
+git stach tempory purpose
+
+#)what is enum?
+
+#)difference between put and post method?
+
+
+#)do you know the fork in git ?
+---------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=AqIL9NVgPKY
+----------------------------------------------------------------------------------------------------
+#)what are the coding standards in java?
+*method names should start with small next word is small
+*varible names will be sensible
+*your code should not be recurssive loop inside a loop in that case you have to optimize the code
+*donot tried to take many times string try string builder or other functions becoz string takes more memory dont use maps and unecesssarily or keep it open keep your connections close 
+*dividing the functionality
+
+#)how you are exceptions are handling in spring boot?
+in spring boot it can be done by controller advice what we are doing is simple try catch  
+
+#)difference between truncate delete and drop?
+truncate:-it is DDL(data defintiton language) command 
+         truncate deletes rows at one goal
+         we cant use where clause with truncate
+         truncate faster than both delet and drop
+         rollback is not possible with truncate
+Drop:-it is ddl command (data defintiton language) 
+       delete the entier structrue or schema
+        we cant not use where clause with in the drop
+        drop is slowre than delte and truncate
+        roll back is not possible in drop
+delete:-it is dml command
+        delete row from the table one by one
+        we can use where clause withh delete to delete one row
+        delte is slower than truncate 
+        rollback is possible
+        
+#)what is prototype?
+if we declared a scope as prototype for every time it will create a new instance when ever a request is made for that bean
+* we use prototype scope for all beans that are stateful while singleton is use for state less bean
+* a new object is create each time when ever it is injected/lookup
+* prototype is created at the time of usage so when you would like to have stateful beans there is huge need of state beans like when you dont want to cache any values in beans prototype beans can be associated with  one session or some call
+
+#)what is log4j vulenarbility?
+baically it is sequrity threat where it expsing the exitre logs acess to out side we removed that jars and we moved to slmlog4j we use it is recommedn by one of archtech
+
+#)what are the disadvantages of microservices?
+
+#)why string is immutable ?
+string is immutable to increase the performance to increase the performace of application we dont need to create multiple objects if we are using multiple strings there is no multiple objecst
+#)
+
+---------------------------------------------------------------------------------------------------------code decode
+--------------------------------------------------------------------------------------------------------
+why java is not  100% oop?
+because of primitive datat types ti is not 100 percent but due to wrapper classe introduction it is 100 oops
+
+#)what is marker interface why we should use which contains nothing iside?
+
+#)why interfaces are colonalbe and
+these are nothing but marker interfaceces these interfaces tell to the compailer that somethng specific to with it just a paritcular info to meta data comilier
+eg:-cloneable,serialization
+
+#)can we override static method in java?
+we can not override a private 
+
+#)what is polymorphism?
+Polymorphism means more than one form, same object performing different operations according to the requirement.
+Polymorphism can be achieved by using two ways, those are
+Method overriding
+Method overloading
+Method overloading means writing two or more methods in the same class by using same method name, but the passing parameters is different.
+Method overriding means we use the method names in the different classes,that means parent class method is used in the child class.
+In Java to achieve polymorphism a super class reference variable can hold the sub class object.
+To achieve the polymorphism every developer must use the same method names in the project.
+
+#)why pointers are not allowed in java?
+Memory allocation is done automaticaly it is managed by Jvm. So to avoid direct access to memory by user pointers dont allowed in java
+
+#)why we need comparable and comparator ineterface is  java canot compare our custom classes like employe it only compare java classes like integer and string etc
+
+#)what is fail fast and fail safe iterators?
+if two threads are acting on one collection object if one thread modifies the collection then it will throw 
+
+#)what is difference between sysnchronised and concurrent collection?
+in synchronised collection if one thread is action on one segment other all are in locked positon but in concurrent hashmap if one thread is acting on one element/bucket other segments one that segment is locked remaining are not locked this is called lock strpping they are free we can do opertions so this way cocurrent collections are more efficient one  
+
+#)what is use of super() key word ?
+super keyword is used to acess the parent class properties or parent class methods and we place a keyword super() in chidl class contructor it will call parent class constructor
+
+#)what is initializer block ?
+initializer block was called when ever the object is created and it is called before the constructor block was called 
+
+#)when stack overflow error occur ?
+when a recurrisive loop occurs the stack is completely full so in that condition stackoverflow occur
+
+#)what is covirant return types in java?
+if a parent class has a method with return type the child class method with same name has also a return type is same as the parent class method or sub class of the parent class return type
+eg:-parent class has return type object child class have return type child of the object class like string etc
+
+----------------------------------------------------------------------------------------------------
+marker interface:-
+
+
+I was being taught that Marker interface in Java is an empty interface and is used to signal to compiler or JVM that the objects of the class implementing this interface must be treated in a special way, like serializing, cloning, etc.
+
+f you look carefully on marker interface in Java e.g. Serializable, Clonnable and Remote it looks they are used to indicate something to compiler or JVM. So if JVM sees a Class is Serializable it done some special operation on it, similar way if JVM sees one Class is implement Clonnable it performs some operation to support cloning. Same is true for RMI and Remote interface. In simplest Marker interface indicate, signal or a command to Compiler or JVM.
+
+--> Practically we can create a interface like marker interface with no method declaration in it but it is not a marker interface at all since it is not instructing something to JVM that provide some special behavior to the class when our program is going to execute.
+
+For example: Serializable, Cloneable etc..are marker interfaces
+
+When my program get exceuted, JVM provides some special powers to my class which has implemented the Marker Interfaces.
+------------------------------------------
+what is abstraction?
+here abstraction means which shows fucntionality by hiding the implementation deatils is called abstraction
+
+what is interface?
+it is 100%
+
+a class can implement more than one interface but a class cannot extends more than one class
+
+#)why pointers are not used in java?
+
+Pointers are quite complicated and unsafe to use by beginner programmers. Java focuses on code simplicity, and the usage of pointers can make it challenging. Pointer utilization can also cause potential errors. Moreover, security is also compromised if pointers are used because the users can directly access memory with the help of pointers.
+
+Thus, a certain level of abstraction is furnished by not including pointers in Java. Moreover, the usage of pointers can make the procedure of garbage collection quite slow and erroneous. Java makes use of references as these cannot be manipulated, unlike pointers.
+
+
+
+why stirng is immutable in java?
+1)for better performance
+optimizing strategies like caching  of hashcode ,caching of objects ,object pooling etc can be easily applied to improve the performance .
+if strings were made muatble,stirng pooling would not be possible as changing the string with one reference may will lead to wrong value of other references
+
+in java all classes are immutable in java
+
+
+2)thread safety
+immutable objects are thread safe as they can not be modified once it created it can only be used for read only objects they easily be shared among multiple thread for better scalibility
+
+#)how concurrent hashmap useful to us ?
+it provides bucket level locking which redues data inconisistency error concurrent modification exception
+
+#)interface:-+-
+----------
+interface is like a thnig serving the contract between interface and calss
+
+interface in  spring :-
+----------------------
+if we are using interface in spring like if we want to inject dao interface in service interface so for that we need to use @autowired annoatation on top of the interface we always use @autowire on top of interface to loose coupling the objects injected in one to another why because is eventhough if some day if we chage the imp class of interface we no need to change the other classes because we are using interfaces for injection not the concreate classes
+
+#)why string is immutable?
+
+1)if string is not immutable we can not use it in string constant pool so string must be immutable
+
+
+2)If we don't make the String immutable, it will pose a serious security threat to the application. For example, database usernames, passwords are passed as strings to receive database connections. The socket programming host and port descriptions are also passed as strings. The String is immutable, so its value cannot be changed. If the String doesn't remain immutable, any hacker can cause a security issue in the application by changing the reference value.
+
+3)the string is thread safe so it is immutableness different threads can acess a single instance so it removes the synchronisation for thread safety so thread safety for string is provided implicitly
+
+4)Immutability gives the security of loading the correct class by Classloader. For example, suppose we have an instance where we try to load java.sql.Connection class but the changes in the referenced value to the myhacked.Connection class does unwanted things to our database.
+
+
+
+
+#)what is the use of interface?
+
+1) with interace we can achive max abstraction
+
+2)with interface we can achive multiple inhertiance 
+
+3)with interface we can achive loose coupling 
+
+
+
+
+

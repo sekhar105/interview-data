@@ -1,0 +1,849 @@
+difference between spring boot and springmvc/j2ee?
+we have to configure server explicitly but in spring boot we dont need to configure explicitly
+
+use of starter package in spring boot?
+use of spring boot starter parent?
+use of @springbootapplication annotaion? 
+use of @restcontroller 
+example of @pathvarible @requestparam
+write a example of singleton class
+
+what is annotatons ?
+annotations are alternative means of configuration information about the java class these are written directly as part of source code on java class so these are "source code meta data"
+
+
+expain about dispatcher servlet?
+A)when http request comes dispatcher servelet is like the front controller it will map the controllers which are going to handle those requests matching the pattern of the url and the class and redirect those requests those the method and the class 
+
+what type of  viewresolver has prefix and suffix?
+
+one example of check exception and one example of runtime execption?
+
+runtime is nullpoint and checked is file not found
+
+#)Why abstract classes have a constructor? 
+The main purpose of the constructor is to initialize the newly created object. In abstract class, we have an instance variable, abstract methods, and non-abstract methods. We need to initialize the non-abstract methods and instance variables, therefore abstract classes have a constructor.
+Also, even if we don't provide any constructor the compiler will add default constructor in an abstract class.
+An abstract class can be inherited by any number of sub-classes, thus functionality of constructor present in abstract class can be used by them.
+The constructor inside the abstract class can only be called during constructor chaining i.e. when we create an instance of sub-classes. This is also one of the reasons abstract class can have a constructor.
+
+// A Java program t
+
+---------------------------------------------------------------------------------------------
+what happen if we override a code of hash map index generation code such that every time it generates a same index so that all the objects we are adding are laying on the same bucket like linkedlist what happens if it workings like that
+
+
+difference between vector and arraylist
+
+ArrayList	Vector
+1) ArrayList is not synchronized.	       1)Vector is synchronized.
+2) ArrayList increments 50% of current array size if the number of elements exceeds from its capacity.	   2)Vector increments 100% means doubles the array size if the total number of elements exceeds than its capacity.
+3) ArrayList is not a legacy class. It is introduced in JDK 1.2.	3)Vector is a legacy class.
+4) ArrayList is fast because it is non-synchronized.	4)Vector is slow because it is synchronized, i.e., in a multithreading environment, it holds the other threads in runnable or non-runnable state until current thread releases the lock of the object.
+5) ArrayList uses the Iterator interface to traverse the elements.	5)A Vector can use the Iterator interface or Enumeration interface to traverse the elements.
+
+
+#)fail pass versus fail safe collections
+#)difference between web server and application server
+
+
+
+---------------------------------------------------------------------------
+what is encapsulation?
+A)encapsulation is wrappin of your data and behaviour together in to a single unit  enscapsulation is wrapping the data and the code acting on the data together as a single unit and the varibles of these class is hidden from other classes and can be acessed from through the methods of the present class (acessors methods)
+
+A)
+
+
+what is abstract class in java?
+abstract class is used to achive abstraction in java we take public abstrct class car. car is a abstract class in java and audi and maruthi are which implements the abstract class  car and we cannot istantiate abstract class in java in abstract class we have abstract methods and normal methods 
+
+how do you achive abstraction in java ?
+we achive abstracion in java in two ways one is abstract class and another one is iterfaces 
+
+what is interafce in java?
+interface is a contract where a class implements the interface has to bind with that contract
+consider an example interface flyable which contians a fly method if bird has to implement flyable then has to give implementation to that fly method it is a contract that a contract that class has to bind with the contract
+in java 8  some features are added in interface that in normal interface we cannot implement any method but in java 8 interface we can implement two types of methods one is default and other one is static method
+
+what are the features of java 8?
+some of the most prominent interafces in java 8 are we can implements defautl and static methods in java 8 interface
+
+for example:-in java 8 if we write two interfaces i1,i2 and both have two same default methods m1(),m1() if we take a class and implements both the classes if we want to call a method in interface i1 we need to call like  ---->i1.super.m1();
+
+what is inheritance in java?
+inhertance is parent child releatio ship interms of java its is super class and sub class in java
+
+what are the types of inheriance?
+
+
+what is a string in java?how do you create a strin in java?
+string in java  is sequence of characters   
+there are two types to create a string in java one using the literal(String s1="hello") and another using the  constructor. string literal we created is stored in string pool and string constructro we created is stored in heap memory 
+
+what is immutable of a string ? 
+once it is create the content of the string can not be changed if we want to change the content of the string then the new istance of the string is created
+
+Do you have used collections in your project?
+i used arraylist and linked list in my project 
+arraylist provides to random acess to the element when we acess the 10 element it directly goes to that element because it uses underlaying array for implementing the arraylist In linked list when we ask the find the 10 th element it starts from the 1st element and goes to 10th element so it takes time if want to retrival elements frequently we can go for arraylist if we want to add elements frequently then linked list the best option in arraylist if we want the add the elements in between the elements then we have to reshuffle frequently
+
+can you explain the working of hash map?
+hash map internally use buckets  for example if we want to add the data into object hashmap generates hashcode to that object and index is genarated to that object and it can be placed in that index position if we want to retrivet the object again repeats the same 
+
+
+do you know multithreading ? explain the thread cycle ?
+
+
+
+
+when we should we go for comparable and comparator interface?
+
+
+
+#)do you know marker interface?
+
+An interface that does not contain methods, fields, and constants is known as marker interface. In other words, an empty interface is known as marker interface or tag interface. It delivers the run-time type information about an object. It is the reason that the JVM and compiler have additional information about an object. The Serializable and Cloneable interfaces are the example of marker interface. In short, it indicates a signal or command to the JVM.
+
+Marker interface is used as a tag that inform the Java compiler by a message so that it can add some special behavior to the class implementing it. Java marker interface are useful if we have information about the class and that information never changes, in such cases, we use marker interface represent to represent the same. Implementing an empty interface tells the compiler to do some operations.
+
+It is used to logically divide the code and a good way to categorize code. It is more useful for developing API and in frameworks like Spring.
+
+what is class in java?
+user defiened data types representing structure of data we want to store
+
+
+---------------------------------------------------------------------------------------------
+what is difference between == method and .equals method?
+"==" is meant for reference method and .equals is meant for content comparison method method 
+
+why jvm calls only public static void main(String[] args)?
+becoz inbuilt jvm will have to call main method and public is to acess this method from any where in hard disk and void is this is called by jvm even though we give some return things what jvm can do with those things static to acess this method we dont need any object for that class
+---------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=fjR33JCFlMU     -------------->>>>>capgemini java interview
+---------------------------------------------------------------------------------------------
+
+what is abstract class?
+
+#do you inheritance in java?
+if there is parent child releationship where we can say where your child class which extends your paretnt class this  is know as inherstance in java we can known as super class and sub class 
+
+#types of inheritance in java?
+
+
+#what if permgem and metadata like that in java 8?
+
+
+do you know multithreading ?
+
+#explain thread life cycle? at @6:00
+
+#do you know how to handle exceptions in java?
+try catch fially what ever you know think you think maight runs an exception you rap it under try and below that you handle your exception you error in catch block excepiton is an abnormal behaviour of code or abnormal flwo that shouldnt happen during the runtime 
+
+#Is it manditory to use catch block  with try block ??
+it is not maditory to have catch block you can write either catch or finally block but you should have either of them cacth or finally
+
+#can i have multiple catch blocks with single try block?
+yes you can have multiple cacthc blocks with single try but here in cathc blocks you hve to write the more specific excetions first and then you hvae to cath more generiaalisse after 
+
+#can you tell me the difference btw the string buffer and string builder?
+both are mutable calsses buffer is synchorinised thread safe.string builder is not a thread safe strin buffer in jdk 1 ans string builder is introduced in 1.5 string builder performance  is far better than string buffer-@@@ do more here
+
+
+#do you knwo stirng class in java how do you compare the strings?
+string is immutable entity in java once you created the string once you creatd the string 
+
+#what difference between == and .equals method?
+== is for reference comparison or adress comparison   .equals method is meant for content comparison  
+String a = new String("sekhar");
+String b = new String("sekhar");
+if(a==b)->false
+if(a.equals(b))->true -- if will only check for letters or words in comparison
+
+#what is use of making a class as final ?
+if make class as  final we can not create a child class (ie string class cannot be extended) 
+
+#how to create a immutable class?
+to create a immutable class
+The class must be declared as final so that child classes canot be created.
+Data members in the class must be declared private so that direct access is not allowed.
+Data members in the class must be declared as final so that we canot change the value of it after object creation.
+A parameterized constructor should initialize all the fields performing a deep copy so that data members can’t be modified with an object reference.
+Deep Copy of objects should be performed in the getter methods to return a copy rather than returning the actual object reference)
+
+#what is serialization ?  @11:50
+
+
+
+#how to check you given string is palindrome or not?
+there are diffent ways to check your string is palindrome or not one is below see
+i take string builder to reverse a stirng and check if both strings are equal 
+
+#which should you use spring?
+spring is contianer of beans the basic purospoe of spring is it do dependency injection for us it also it has the feature of ioc for example if we have bank account object we need costumer adress object as a developer we dont need to create a objcets spring do the creation and injection of objects for us as the responsibilites and control of creation of object and injection of object is given to spring it is called INVERSION OF CONTROL (ioc)
+
+#explain of life cycle of bean?
+
+
+
+#do you trancions in spring?
+
+
+
+#i am going to create a curd application in spring boot can you tell how to create this project?
+
+
+
+
+#what are the starter dependecies for your spring boot application
+
+
+#can you change the port of tomcat server in spring boot ?
+yes there in applicatio.prop there is a property called server.port there you can change it
+
+#how can you change your server in springboot?
+we need jt dependency in 
+
+
+
+#what is swagger do you have any idea on swagger?
+
+
+#do you have any working experience on database? what is primary key in db?
+i have used mysql pk is a coloum in a table which stored identifier and you cant not have duplicate entries in the pk coloum and forien key is where you are refering pk of other table this is know as foien key constant 
+
+
+
+
+----------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=3ENAPkuTODk
+----------------------------------------------------------------------------------------------------
+
+#what is ioc in spring?
+in normal programing or in old fashion programing we use to delcare objects and we use to create a new objects there itself so it is tight coupling right but in ioc it inject that specifc objet which is needed from out side that is dependency injection spring just take care of all these things we just have to define the beans in your application xml configuration
+
+#what are the different types of scopes of spring bean ?
+we have singelton,prototype,request,session
+
+#have you used spring boot ?
+nooooooo
+
+#what is string pool in java?
+you are asing stirng constant pool when we are declare a string in literals that value will store in string constant pool so it is basically a memory area there all the string literals are to be stored 
+
+#what is the instance level locking and class level locking ?
+basically you are asking about synchronised blocks and methods right when ever we have schroised methods that logs on object right and if we have static  synchronised metods than that will log on the class level one thread particularly executig that method so it will locak on object when ever we have staic synchronised mehod than that it will lock on class level
+
+#what is difference betwenn normal interface and funcitonal interface
+in fun interface inttroduced in java 8 in  normal intereface we have chance to write concreate methos right but in function interface we have chance to write concreate methods rght 
+
+#do know lambada expressions ?
+yes i dont work but i know some data about it  i dont have expreience on java 8
+
+#what is differnce between sleep and wait method in java?
+sleep method will do thread on hold but it will not release monitor 
+wait method it will also hold execution but it wll realese monitor 
+
+#there is primitve data type int and integer so which will take more memory ?
+i think integer will take more memroy i think it has wrapper class 
+
+#can you tell me why string is imuutabel?
+
+
+#what is differnce between stack and heap in memroy?  @8:00
+
+
+#which case you will prefer linklist and arraylist?
+for example you have a requeriement to load that arraylist data one time after that you just need to read that in that case i will go with array list if we have frequent insetion and deletion in that case we can go for link list becoz it will impact you performance
+
+#what is the difference between comparable and comparator?
+when ever any update happenign on the table what update it is happening on all these things we can track in other tabel we do trigerin ber /.//././. blah blah we can track the data activites
+
+#can you tell me diffenece between primarykey and unique key?
+primary key you have only one the table where as unique you have multiole in pk you cannot have null value in unique you have null value also. unique is combination of multiple coloms and pk is only coloum
+
+#can you tell me difference between hash tabel and concurrent hash map?
+
+
+#do you know internal working of hashmap right how rehashing happens on hash map?  @ 14:00
+
+
+
+#what is relation between equals and hashcode?
+
+
+
+#how you can detect a memory leak in an application? what is memory leak ?     @15:30
+
+
+
+#why micro services were introduced?
+
+
+
+#have you written some unit test cases?    @17:00
+//exception havndling how can you can throw it
+
+
+
+
+#can you tell me the diffenece between unit test and integration test?
+unit test is a function by function  test 
+
+
+
+#what is test driven development? what do you think about that?
+
+
+
+#have you write a any crone expression or any sheduled job while coding ?
+
+
+#while using exceptions iam using a finally block in that method iam returing the vlaue can i keep some statmetts after that finally block ?
+once you write return after thaat it is a unreacble code compiler will give compile time error and if we have a method in that method we have try and finally block if we have return statment in try block also that finally block will execute untill finally block execution the method will not return data or control to caller
+
+
+#what is the benifit of preparedstatement and statement? what is sql injection?  @25:00
+
+
+
+#what is rest?
+rest is we can say medium of communicatin between two apps data
+
+
+#do you know about string tokinizer?
+
+
+
+#whiel creatin a thread one is runnable and another is thread class and another is runnable interface?which one is better accoriding to you ?  @ 27:30
+
+
+
+
+#what is collable interface in thread?
+
+
+
+#what is fail fast and fail safe iterator?    @28:35
+
+
+----------------------------------------------------------------------------------------------------
+
+
+
+this is git push
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+#)what is difference between synchronised method and synchornised block?
+
+
+#) when should we chosse arry and arrylist and linked listin java?
+array is fixed in size ,arralist is like a dynamic array like it can grow or resize we can go for fetching the data and linked list we can go for manipulation of data storing
+
+#)what is imutable class ?
+class which is not  extendable and all membervarible should be private get method should be there no set method evey thing is protected like once we create the object for immutable calss we can not change the value
+
+#) what is double checked locking in singleton class?
+
+
+#)what is use of @override annotation?
+override annotation we use for avoiding complietime error
+
+#)what is the acess level of protected acess modifier in java?
+private:- this acess  modifier is acess with in the class and out side the class no one can acess it 
+public:- this acess modidifer we can acess any where inside the class or out side the class and inside the package or outside the package 
+protected:- this acess modifier we can acess with in the class and with the package if we can also acess out side the package by extending the class which is in present packgae
+default:- this acess modifier we can acess with in the class and with in the packge out side the package we can not acess 
+
+
+#) what of scope of acess level of defautl acess modifier?
+we are not using any public private that is considered as default 
+
+#)what is file not found exception if a method is throwing file not found exception can we override this method in subclass by throwing io exception?
+
+
+#)what if i clone the object of a singleton class?
+
+
+#)suppose if we dont override the hashcode() in a collection what will be the impact on the performance?
+
+
+#)in the hashmap  what data type of you will chose to prefer fot the keys ?
+
+
+#)tell me the example of immutable class?
+is warapper class is aimuuteable class doubt check it once
+
+
+#)what is inner class?
+
+
+#)do you need to create a object for inner class to acess it  ?
+ 
+
+#)string is immutabel class?
+
+#)what are the different ways to create a threads which one is most preferable?
+there is 
+
+#)do you know any thing about callable interface?
+
+#)waht is difference between callbable and runnable interface?
+
+#)what is differce between sleep and wait method?
+
+
+#)what is a way method to create a thread pool?
+executer frame work
+
+
+#)what is execute,execute query method and execute update in mysql?
+
+
+#)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=ebIFLu9QDg0
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+what is difference between abstract and interface in java
+
+
+#)what is difference betwenn fianl and finally?
+final is like a keyword when we use final for a varible it cannot be changed and if we use it for method we can not override the method and if use it for class it can not be inherited 
+where finally is a word is used for exception handling like try catch block there is finally block which used for closing the resources 
+
+#)do you know wrapper classes in java?
+if we want to perform operations on int double  etc whicha are primitive data type so to perform operations which we are performing on the objects we need wrapper classes like interger etc
+
+#)what is an event based application?
+
+
+#)what are the advantages of the spring boot?
+earlier in j2ee we need to create objects and we only 
+
+#)can you know the steps you followed to create a spring boot application?
+
+#)how can you change the port in spring boot applicaton ?
+server.port=8081
+
+#)do you know what is spring boot cli?
+
+#)what are the major core difference between java script and angular ?
+
+#)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=CN5SWoR7DVw&t=1s
+-----------------------------------------------------------------------------------------------------------------------------------
+
+#)do you ahave experience in java  8 ? can you tell me how to filter stream
+usint sstream fileter api wither filter method..
+
+#)what are the method reference introduced in java 8?
+to shortern the code 
+
+#)what is the difference between stream and parllel stream?
+
+#)what is use of foreachmethod() in java?
+used for iterating the values
+
+#)what is the use of lambda expression in ajava 8 what are the use of lambdad ?
+lmbada is minly used for the implemetning the functional interface we can declare the lambad with or with our parameteres we can have single or multiple statements is maily for executint the functional interface
+
+#)difference between checked and unchecked expection ?
+
+
+#)null pointer exception?
+it is runtime exception
+
+#)how do you handle exceptin spring boot and spirng?
+
+
+#)can you tell me in java which methos contains clone method?what about cloneble interface?
+object class will have clone method is there 
+
+#)what are functional interface?what is clonable interface
+by implementing thsi clone intterface we can use clone method
+
+#)can we use clone method with out using interface?
+
+#)what type of exception this clone method throw?
+clone not supported exception
+
+#) can you tell me the ways to create singleton class?
+delcere private constructors and static methods that will return instance of the singleton class
+
+#)what is the heap memroy in java and what is the stack memory in java?
+objects with new keywords are saved in heap meory
+
+#)what is a transction?
+tranction is sequenc of events like when one event fail then all the events will be rolled back in banking domain like this tranctiosn is happen
+
+#)how you  are connecitng to project databases ?
+
+#)what are the different types of desigan patterns you have used ?
+factory method and singleton design pattern 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=aULgoKq_vqg
+-----------------------------------------------------------------------------------------------------------------------------------
+#)in obj class there are 9 methods are there why we have waited notify present in obj class insteda of thread class
+we implemented the lock on the object lable so thats why we have we have these methods is obj  class instead of thread class
+
+#)why string is immutable in java
+
+
+#) we need to store passwords which data type would you prefer? suppose if i give a options char array and string ?
+because if you store passowrd as string it will avilable in memory any one can hack this
+
+#)can you override the staic method in java?
+therer will be no error no overring each of the methods will be seperate methods for each of the classes super and sub classes
+we cannot override the constructor also
+
+#)if you have return statmetn in try and catch can finally block execute?
+yes it will execute at any condition only system.exit at this conditon only it doesnot execute
+
+#)we have overriding hashcode in serveral classes does overriding hashcode and equals method any performance implications ?
+ 
+#)can you create a immutable class?what is the procedure?
+(what is shallow dip copy)
+
+#)have you use executer frame work?
+
+
+#)what type of design pattern you are used?have you used factoy design and abstract fractory what is the difference between them?
+
+#)can you tell me the internal working of hashmap?difference between hashmap and concurrency hashmap?
+
+#)java 9 questions ?
+
+#)can you tell me how garbage collection works in java 8?
+
+#)how do you check the performance of our application?
+
+
+#)how you do unit testing and use mokito?
+
+#)what is the difference between unit testing and integrated testing?
+
+-----------------------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=JWQNKg_U2f4
+-----------------------------------------------------------------------------------------------------------------------------------
+
+#)do you know what is content negotation?
+
+#)why do you move to java8 ?
+it reduces the code and stream api is very powerfull
+
+#)what is dependency injection? what is 
+dependency injection is mainly for loosely coupled objects when ever we required spring is going to inject the object dependency injection we can achive it through we can autowiring the objects 
+
+#)suppose there are two threads how will you insure these two threads run in   t1 si printing a b c and t2 is printing 1 2 3 ?
+
+#)what is a bean?is there any difference between normal bean and spring bean?
+bean is nothing but instance of a class and normal bean is created at time of instantiation only but spring bean is called at time of creating ioc container or if it is lazy instantion it created when ever we called getbean() method
+
+#)how do you secure your web services?
+
+#)difference between @controller @service  @ repository?
+all these are type of @component only these are stero type of anotaions they are made for specific purpose only internally they all anotated with @component only
+
+#)i used @controller anotation i perform data base operations there what happen?
+no problem
+
+#)benifit of using dao layer?
+dao layers is dedicated for database interaction avalilable as design like controller and service
+
+#)how can you create a database which can expand itself
+
+#)how can you mange exceptions in spring?
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+OWN 
+----------------------------------------------------------------------------------------------------------------------------------
+immutable object :- immutable object means once the object created we cannot change the state of the object
+                    immutable object are the objects whose value cannot change after intialization
+
+String k ="sekhar";
+String s = new String("sekhar").intern();
+System.out.println(k==s);------>>>>true
+
+
+what are wrapper classes?
+wrapper classes which provides mechanism for us to convert primitve to object and object to primitive
+
+autoclosable:-
+this is latestly introduced in java 7 in which if we implements a class with autoclosable and we are using that class in try block we dont need to write finally block with our writing  finally block also the conncections are closed because of the class we used is implements autoclosable
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=ncASUkMwCAU
+----------------------------------------------------------------------------------------------------------------------
+what is immutable class?
+immutable class is a class the value which you assign initallly that which we cant modify again string is immutable class if we create a string object we cannot modify the object if we try to modify the object it will creates the new object again in string we have string pool and heap memory area when ever we create new object with new keyword one object will be create in  
+
+if you use obj1.concat(obj2)?what happen?
+it will create new object it  will dont change any of existing objects
+
+#)what is difference between shallow copy and deep copy?
+shallow copy store the reference of objects to the original memory adress and where as deep copy sotres the copies of objects of originla value
+shallow copy reflects the changes made in the originla objects where as deep copy doesnt reflects the changes made in the original object
+
+#)what is singleton class?
+singleton class is the class which instantiated only one instance for the whole application we have one method public static method getinstance() 
+
+#)there are two ways to create a sigleton class what are they ?@ 9:02
+one is during the 
+
+
+#)there is another method to check singleton? double check lock mechanism to create a singleton class in java?
+
+
+#)how is internall working of map ? what is the collison condition occur?
+map is basically it doesnot comes under collectons it sotores data in key value pair we are working on electronics objects when ever we are passing data to put method ("lenovo",10) by using hash code it  will creaete hashcode and create index also if it is 4 it will place the data in the index 4 bucket and next obj ("dell",20) also got index 4 then it will check if both keys are equal are not by using .equals method if both are eqaul  then it will update value by the new value if both keys are not equal the the new obj is added as next node to the linked list in the same bucket
+
+#)do you have experience on jpa right what is cascading ?
+
+    
+    
+#)can you tell me what are the different level of cache in hibernate ?
+yes we have to levels of cache in hibernate 
+
+#)what are the different types of states of session in hibernate?
+
+    
+#)what are the sterio type annotation in spring
+
+
+#)difference between  @responseentity and @responsebody?
+
+    
+#)difference between @bean and @component?
+@bean is used to decalre the third party class of spring as a bean avaliable for container @bean is mainly used when we dont have source code @component is used when have source code like we create a class  in project and place @componet spirng will find and store in container
+---------------------------------------------
+https://www.youtube.com/watch?v=rCY5hx4QAsA
+---------------------------------------------------
+@springbootApplication internally?tell each line about them?
+this anotation contains @configuration @enableautoconfiguration @componentscan
+
+#)how to dissable specific auto-configuration class?
+@EnableAutoConfiguration(exclude=DataSourceAutoConfiguration.class) 
+
+#)why character array is prefered to store confidential information(such as password) over string?
+once we use string for storing confidential information even after its usage it present in the string pool for very long period of time so druing this time attacker who ever has acecss to memory dom can easlily acess the confidential info like char array once our operation is finished we assing null to character object
+
+#)what is constructor chaining?
+if we are calling one constructor form another constructor we use this keyword
+
+public class Test {
+
+	private int rollNo;
+	private String name;
+	
+	Test(){
+		this(10);
+	}
+	Test(int rollno){
+		this(10,"sekahr");
+	}
+	Test(int roll,String name){
+		System.out.println("all arg constructor");
+	}
+	public static void main(String[] args) {
+		Test te = new Test();
+		
+	}
+}
+
+
+#)can we have same static method with same name in both parent and child classes?
+static mehtod can not be overridden but it is not overridding it is method hiding
+
+
+#)what is difference between hashset and treeset?
+
+
+#)third highest salary using java8 stream api?
+
+#)how to handle exception handling in spring boot?
+@exceptionhandler
+@controller advice
+
+#)what is yiedl method on thread object?
+
+#)explain hibernate entity life cycle?
+
+
+#)difference between  evict and clear in hibernate?  @5:35
+
+#)write lambda expression for functional interface which is having two abstracat methods?
+it is no possibnle fi contain only one abstract method
+
+#)which exception has to write first 
+
+catch(Excetpion e)
+    or
+catch(ArthematicException e)
+   
+Arthematic exception comes first because if we write Excetpion first and ArthematicException second we get compile time error
+
+#)sql query to add delimiter between recorded values?@7:06
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=tA022Tcid9g&t=374s&ab_channel=learnprogramingbyluckysir
+-----------------------------------------------------------------------------------------------------------
+#)how to prevent a class by being subclass in java?
+final modifier is used with a class the class cannot be exteded further sensitive class are made string and wrapper class are made final in java
+
+#)can we override a static method in java?
+no we cannot override static method in java method overrideing is based upon dynamic binding at run time and static methods are bounded using static binding at compile time though we can write  a similar method in java by using same method in parent as same method in child class but it is not overriding it is method binding
+
+#)can we acess private method in java ?
+yes in the same class but not outside the clas
+
+#)what is final keyword where you used that keyword?
+final varible finalmethod and fianl class if any is assing to final varible it value cannot change if we write for methods we cannot orveride that methods in child class
+
+#)differenc between checked and unchecked
+the exceptions which are checked by complier for smooth of execution of program at runtime is called checked exceptions eg-ioe and class cast exception
+
+#)how to fix concurrent modigication exception?
+
+
+#)difference between abstracta class and interface in java 8 ?when to use 
+
+#)the differece between method overloading and method overriding?
+
+#)difference between encapsulation and abstraction?
+abstraction :-Process of picking the essence of an object you really need
+    abstraction is property by whihc only essential details are  displayed to the users
+encapsulation:-encapsulation is to hide varibles are something insidea a calss preventing unauthorised users to acess some public methods like getters and setters are used to acess it
+
+#)have you applied object cloning in your project?
+
+#)difference between hasset and hashmap?
+
+#)when to use transient varible?
+when you want a varible non serialzable in a class which implements the serilizable interface in other words if use it varible whose data you dont want to save
+
+#)when to use arralylista and linkedlist?
+arralylist we use when our frequent operation is retrival and linked list is when want to add or delete data at middle
+
+#)difference between string buffer and string builder?
+only one thread can offer in string buffer but i case of string builder multiple thread are offer
+
+#)how to create use defined exception?
+to create use defined exceptions we create sub class which extends jaava exception class and you can overide tostring ot dia
+
+#)when you should go for join() method for thread ?
+join method thow intreutped exception which is checked we have ot handle either try or throws 
+
+#)what type of exceptions you have faced in projects how ot resolve it?
+some of the exceptions we faced on nullpointer ex and concurrent modification and illegal monitor state exceptions 
+#)at what situation we are going get illeagal monitor state exception @15 25
+
+#)tell me some of java 8 features with examples?
+
+#)why we need generics ?
+
+#)difference loose coupling and tight coupling?
+
+#)difference between bufferreader aand scanner calss?
+
+#)oops real time examples and collections real time examples
+
+#)what is singleton class in java?
+
+#)what is differnce between classnotfoundExcepion and noclassDefoun error?
+
+#)diff btw constructor and method?
+
+#) what is public static void main(string[] args)
+
+#)difference between heap and stack
+
+#)expalin spring mvc arch
+
+#)how to exaplain project arc
+
+What are annotations?
+Annotations are the alternate means of providing the configuration information to an java class. Annotations are written directly as part of the sourcecode of a java class, so these are called "Source Code Metadata"
+-----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+POJO: If the class can be executed with underlying JDK,without any other external third party libraries support then its called POJO
+
+JavaBean: If class only contains attributes with accessors(setters and getters) those are called javabeans.Java beans generally will not contain any bussiness logic rather those are used for holding some data in it.
+
+All Javabeans are POJOs but all POJO are not Javabeans
+
+
+
+
+
+
+
+
+
+
+
+
+i have hands on getting check out from git and pusging  and merging the branches and all
+
+#)what about code quality?
+earlier we were doint the check codes using the chekc list and manual review done and sonar for the automated thing and these are seen by the devops team
+
+#)what about the spring boot experience ?
+old code we worked was 
+
+#)spring boot cli commands?
+
+#)dependency injection?
+when ever we have to insert any value as a bean in another bean that is called spring dependency injection so in here spring boot we use autowire 
+
+#)what about ioc ?
+what ever beans are created and it is placed 
+
+what is ioc continer why it is using when it is placed
+
+#)what is immutable class?
+
+    The instance variable of the class is final i.e. we cannot change the value of it after creating an object.
+    The class is final so we cannot create the subclass.
+    There is no setter methods i.e. we have no option to change the value of the instance variable.
+
+
+#)give an example for demon thread?
+garbage collector is an example of demon thread
+
+
+
+
+
+
+
+
+
+
+
+
+
